@@ -2,6 +2,7 @@
 \usepackage{caption} 
 \captionsetup[table]{skip=10pt}
 \usepackage{array}
+\usepackage{amsmath,amsfonts,amssymb}
 \begin{document}
 \begin{table}
 \centering
@@ -33,6 +34,19 @@ D & E & F \\
 \begin{tabular}{|>{\centering}p{0.33\textwidth}|c|c|}
 \hline
 A & B & C \\
+\hline
+D & E & F \\
+\hline
+\end{tabular}
+\end{table}
+%-----------------------------------------------------------
+\begin{table}
+\def\arraystretch{3}
+\centering
+\caption{Table Name}
+\begin{tabular}{|>{\raggedleft}p{0.33\textwidth}|c|c|}
+\hline
+$\dfrac{1}{2}$ & B & C \\
 \hline
 D & E & F \\
 \hline
