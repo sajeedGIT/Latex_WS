@@ -3,6 +3,7 @@
 \captionsetup[table]{skip=10pt}
 \usepackage{array}
 \usepackage{amsmath,amsfonts,amssymb}
+\usepackage{multirow}
 \begin{document}
 \begin{table}
 \centering
@@ -40,6 +41,7 @@ D & E & F \\
 \end{tabular}
 \end{table}
 %-----------------------------------------------------------
+% Array Stretch 
 \begin{table}
 \def\arraystretch{3}
 \centering
@@ -49,6 +51,32 @@ D & E & F \\
 $\dfrac{1}{2}$ & B & C \\
 \hline
 D & E & F \\
+\hline
+\end{tabular}
+\end{table}
+%----------------------------------------------------------------
+% Column merge
+\begin{table}
+\centering
+\caption{Table Name}
+\begin{tabular}{|>{\raggedleft}p{0.33\textwidth}|c|c|}
+\hline
+\multicolumn{2}{|r|}{ A } & C \\
+\hline
+D & E & F \\
+\hline
+\end{tabular}
+\end{table}
+%---------------------------------------------------------------
+% merge row \usepackage{multirow}
+\begin{table}
+\centering
+\caption{Table Name}
+\begin{tabular}{|>{\raggedright}p{0.33\textwidth}|c|c|}
+\hline
+\multirow{2}{*}{A} & B & C \\
+\cline{2-3}
+ & E & F \\
 \hline
 \end{tabular}
 \end{table}
