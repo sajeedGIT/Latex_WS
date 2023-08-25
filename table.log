@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.8.18)  25 AUG 2023 22:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.8.18)  25 AUG 2023 22:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -24,35 +24,64 @@ File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
 )
+(C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/03/12 v3.6j Customizing captions (AR)
+
+(C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
+
+(C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+\caption@tempdima=\dimen141
+\captionmargin=\dimen142
+\caption@leftmargin=\dimen143
+\caption@rightmargin=\dimen144
+\caption@width=\dimen145
+\caption@indent=\dimen146
+\caption@parindent=\dimen147
+\caption@hangindent=\dimen148
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count194
+\c@continuedfloat=\count195
+)
 (C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count194
+\l__color_backend_stack_int=\count196
 \l__pdf_internal_box=\box51
-)
-No file table.aux.
+) (table.aux)
 \openout1 = `table.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 8.
+(Font)              <12> on input line 9.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 8.
+(Font)              <8> on input line 9.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 8.
+(Font)              <6> on input line 9.
+
+
+Package caption Warning: Unused \captionsetup[table] on input line 3.
+See the caption package documentation for explanation.
+
 [1{C:/Users/Radha/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (table.aux
 )
  ***********
@@ -61,16 +90,16 @@ L3 programming layer <2023-06-30>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 466 strings out of 475551
- 8829 string characters out of 5762554
+ 1858 strings out of 475551
+ 35681 string characters out of 5762554
  1917238 words of memory out of 5000000
- 21763 multiletter control sequences out of 15000+600000
+ 23142 multiletter control sequences out of 15000+600000
  560805 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,8n,50p,148b,208s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 55i,8n,65p,251b,288s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Radha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmr12.pfb>
-Output written on table.pdf (1 page, 13021 bytes).
+Output written on table.pdf (1 page, 13157 bytes).
 PDF statistics:
  11 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

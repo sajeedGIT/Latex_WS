@@ -1,13 +1,17 @@
 \documentclass[12pt, a4paper]{report}
-
+\usepackage{caption} 
+\captionsetup[table]{skip=10pt}
 
 \begin{document}
 \begin{figure}
 \centering
 \caption{Table Name}
-\begin{tabular}{ccc}
+\begin{tabular}{|c|c|c|}
+\hline
 A & B & C \\
-D & E & F 
+\hline
+D & E & F \\
+\hline
 \end{tabular}
 \end{figure}
 \end{document}
