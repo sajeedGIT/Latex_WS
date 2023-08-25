@@ -1,17 +1,42 @@
 \documentclass[12pt, a4paper]{report}
 \usepackage{caption} 
 \captionsetup[table]{skip=10pt}
-
+\usepackage{array}
 \begin{document}
-\begin{figure}
+\begin{table}
 \centering
 \caption{Table Name}
-\begin{tabular}{|c|c|c|}
+\begin{tabular}{|>{\raggedright}p{0.33\textwidth}|c|c|}
 \hline
 A & B & C \\
 \hline
 D & E & F \\
 \hline
 \end{tabular}
-\end{figure}
+\end{table}
+%----------------------------------------------------
+\begin{table}
+\centering
+\caption{Table Name}
+\begin{tabular}{|>{\raggedleft}p{0.33\textwidth}|c|c|}
+\hline
+A & B & C \\
+\hline
+D & E & F \\
+\hline
+\end{tabular}
+\end{table}
+%----------------------------------------------------------------
+\begin{table}
+\centering
+\caption{Table Name}
+\begin{tabular}{|>{\centering}p{0.33\textwidth}|c|c|}
+\hline
+A & B & C \\
+\hline
+D & E & F \\
+\hline
+\end{tabular}
+\end{table}
+%---------------------------------------------------------------
 \end{document}
