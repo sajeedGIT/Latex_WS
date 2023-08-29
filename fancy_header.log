@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.8.18)  29 AUG 2023 21:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.8.18)  29 AUG 2023 22:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -24,62 +24,119 @@ File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
 )
+(C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty
+(C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3k
+eys2e.sty
+(C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2023-06-30 L3 programming layer (loader) 
+
 (C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count194
 \l__pdf_internal_box=\box51
-) (fancy_header.aux)
+))
+Package: l3keys2e 2023-02-02 LaTeX2e option processing using LaTeX3 keys
+)
+Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+\g__lipsum_par_int=\count195
+\l__lipsum_a_int=\count196
+\l__lipsum_b_int=\count197
+
+(C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex))
+(C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip50
+\f@nch@O@elh=\skip51
+\f@nch@O@erh=\skip52
+\f@nch@O@olh=\skip53
+\f@nch@O@orh=\skip54
+\f@nch@O@elf=\skip55
+\f@nch@O@erf=\skip56
+\f@nch@O@olf=\skip57
+\f@nch@O@orf=\skip58
+)
+(fancy_header.aux)
 \openout1 = `fancy_header.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 6.
+(Font)              <14.4> on input line 9.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 6.
+(Font)              <7> on input line 9.
  [1
 
-{C:/Users/Radha/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+{C:/Users/Radha/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (fancy_heade
+r.toc)
+\tf@toc=\write3
+\openout3 = `fancy_header.toc'.
+
+ [2
+
+]
+Chapter 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 7.
+(Font)              <12> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 7.
+(Font)              <8> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 7.
- [1] (fancy_header.aux)
+(Font)              <6> on input line 16.
+[3
+
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[4]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[5] (fancy_header.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 478 strings out of 475551
- 9175 string characters out of 5762554
- 1917238 words of memory out of 5000000
- 21772 multiletter control sequences out of 15000+600000
- 562017 words of font info for 49 fonts, out of 8000000 for 9000
+ 1108 strings out of 475551
+ 22639 string characters out of 5762554
+ 1924238 words of memory out of 5000000
+ 22379 multiletter control sequences out of 15000+600000
+ 562930 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,6n,50p,170b,189s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,11n,93p,239b,209s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Radha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmr12.pfb><C:/Users/Radha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmr17.pfb><C:/Users/Radha/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmr8.pfb>
-Output written on fancy_header.pdf (2 pages, 34852 bytes).
+cmbx12.pfb><C:/Users/Radha/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmr12.pfb><C:/Users/Radha/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmr17.pfb><C:/Users/Radha/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmr8.pfb>
+Output written on fancy_header.pdf (5 pages, 56208 bytes).
 PDF statistics:
- 24 PDF objects out of 1000 (max. 8388607)
+ 38 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
