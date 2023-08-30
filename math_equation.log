@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.8.18)  30 AUG 2023 07:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.8.18)  30 AUG 2023 07:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -227,20 +227,29 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[6] (math_equation.aux)
+[6]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[7] (math_equation.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2473 strings out of 475551
- 40622 string characters out of 5762554
+ 2475 strings out of 475551
+ 40676 string characters out of 5762554
  1930238 words of memory out of 5000000
- 23692 multiletter control sequences out of 15000+600000
+ 23694 multiletter control sequences out of 15000+600000
  575919 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,12n,93p,240b,221s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,12n,93p,240b,223s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Radha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmex10.pfb><C:/Users/Radha/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmmi12.pfb><C:/Users/Radha/AppData/Local/Programs/MiKTeX/fonts/type1/p
@@ -251,9 +260,9 @@ ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Radha/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Radha/App
 Data/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Radha/App
 Data/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on math_equation.pdf (6 pages, 103856 bytes).
+Output written on math_equation.pdf (7 pages, 108978 bytes).
 PDF statistics:
- 67 PDF objects out of 1000 (max. 8388607)
+ 72 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
