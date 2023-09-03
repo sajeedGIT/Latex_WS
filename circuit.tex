@@ -1,0 +1,22 @@
+\documentclass{standalone}
+
+\usepackage{circuitikz}
+
+\begin{document}
+\begin{circuitikz}[american,]
+\centering
+\draw
+(0,0) node[pnp](t1){T};
+\draw
+(t1.B) to [short] (-2,0);
+\draw
+(t1.E) to [R, l=$R_1$, v= $v_1$] ++(0,2)
+       to [short, -*] (0,4);
+\draw
+(t1.C) to [L, l=$L_E$] (0, -2)
+       to [short] (0, -4);
+\draw
+(0, -4) node[ground](g){GND};
+
+\end{circuitikz}
+\end{document}
