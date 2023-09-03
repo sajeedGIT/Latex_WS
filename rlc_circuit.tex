@@ -1,0 +1,15 @@
+\documentclass{standalone}
+\usepackage{circuitikz}
+
+\begin{document}
+\begin{circuitikz}[american,]
+\draw
+(0,0) to [R, l=$R_1$, v=$V_1$] (2,0)
+      to [L, l=$L_1$, v=$V_2$] (4,0)
+      to [C, l=$C_1$, v=$V_3$] (6,0)
+      to [short] (6,-2)
+      to [short] (0,-2);
+\draw     
+ (0,0)     to [V, l_=$V$] (0,-2);
+\end{circuitikz}
+\end{document}
