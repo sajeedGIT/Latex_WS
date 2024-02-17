@@ -1,0 +1,275 @@
+\documentclass[legalpaper, 12pt, addpoints]{exam}
+\usepackage[margin=1in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{graphics}
+\usepackage{color}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{cancel}
+\usepackage{ragged2e}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{color}
+\usepackage{tikz}
+\usepackage{circuitikz}
+\usepackage{siunitx}
+\CorrectChoiceEmphasis{\itseries\color{red}}
+
+\begin{document}
+\begin{coverpages}
+
+%---uncomment to add a custom header (replace {header-cufm.png})---- %
+%\begin{figure}[t]
+%\includegraphics[width=1\textwidth,height=1.2\textheight,keepaspectratio]{%header-cufm.png}
+%\end{figure}
+
+\begin{center}
+Spring 2018 \\
+\textbf{Precalculus' Final Examination } \\
+nth Semester \\
+Section 000
+\end{center}
+\extraheadheight{-0.8in}
+
+\vspace{0.25in}
+\parbox{6in}{
+\textbf{Objective:} Assess understanding of function behavior and calculus readiness. This exam also aims to provide a comprehensive assessment on concepts and definitions that are necessary to be successful in further Mathematics courses.)}
+\vspace{0.15in}
+
+\parbox{6in}{{\textbf{General Instructions:} Read carefully each exercise. Fill in your \textit{scantron} with a pencil and circle the correct answer on paper as well. Scratch paper is not allowed under any circumstances. All your work must be done in these pages.}
+\vspace{0.15in}}
+
+ \begin{center}
+\fbox{\fbox{\parbox{6in}{
+\begin{itemize}
+    \item You have up to 120 minutes.
+    
+    \item Every item on the test awards 2 points for each correct answer, for a maximum possible score of 100 points.
+    
+    \item Non-graphing calculators are allowed. TI-84 or similar, including smart devices, are prohibited. 
+
+    
+    \item One half-page formula sheet printed in black ink and showing the instructor's authorization may be used. Any other form of aid is not allowed. 
+    
+    \item Mere suspicion of cheating, sharing calculators or using any unfair means of aid is enough to get your test withdrawn.
+        
+    \item When you are done, turn in the examination, your \textit{scantron} and your formula sheet. Failure to do so will result in an automatic failing grade.
+
+
+    
+\end{itemize} }}}
+\vspace{0.2in}
+\end{center}
+\vspace{0.15in}
+\runningheadrule \extraheadheight{0.14in}
+
+\lhead{\ifcontinuation{Question \ContinuedQuestion\ continues\ldots}{}}
+\runningheader{Precalculus}{Final Examination}{Spring 2018}
+\runningfooter{4th Semester}
+              {\thepage\ of \numpages}
+              {Version A}
+\vspace{0.15in}
+
+\vspace{0.1in}
+
+%-comment out the next line to display point value for each question -%
+\nopointsinmargin
+\setlength\linefillthickness{0.1pt}
+\setlength\answerlinelength{0.1in}
+\end{coverpages}
+
+\parbox{6in}{\textsc{{SIDE A}}
+
+\vspace{0.15in}
+
+\parbox{5in}{
+{\textsc{\textbf{Part I.} Network Theory Questions.}}}}
+
+\vspace{0.15in}
+\hrule 
+\vspace{0.1in}
+\begin{questions}
+
+\question The current $I_y$ flowing through $660 \Omega$ resistance  is (Refer Figure~\ref{fig:1}):
+\begin{figure}[h!]
+\centering
+\begin{circuitikz}[american voltages]
+\draw
+(0,4) to [V, v_= $3V$, i = $I_x$] (0,0);
+\draw
+ (0,4)     to [short]      (3,4)
+      to [R, i= $I_y$, l=$660 \Omega$] (6,4);
+\draw
+(0,0) to [R, l=$330\Omega$] (3,0);
+\draw
+(3,4) to [short] (3,3)
+      to [R, l=$660\Omega$] (6,3)
+      to [short] (6,4);
+\draw
+(6,3) to [short] (3,0)
+      to [R, l_=$330 \Omega$] (0,4);      
+\end{circuitikz}
+\caption{Q.No.1}
+\label{fig:1}
+\end{figure}
+
+\begin{oneparchoices}
+    \choice $I_x$
+    \choice $I_x/2$
+    \CorrectChoice $I_x/4$
+    \choice $I_x/3$
+\end{oneparchoices}
+
+\question The voltage across $660 \Omega$ resistance is (refer Figure~\ref{fig:2}):
+\begin{figure}[h!]
+\centering
+\begin{circuitikz}[american ]
+\draw
+(0,0) to [short, i=$I_x$] (0,4)
+      to [R, l= $330 \Omega$] (4,4)
+      to [R, l= $660 \Omega$] (8,4)
+      to [short]  (8,0);
+\draw      
+(0,0) to [V, v= $3V$] (8,0);
+\draw
+(4,4) to [short] (4,3)
+      to [R, l_= $660 \Omega$] (8,3);
+
+\end{circuitikz}
+\caption{Q.No.2}
+\label{fig:2}
+\end{figure}
+\begin{oneparchoices}
+    \choice $0.65 V$
+    \choice $1.5 V$
+    \choice $0.72 V$
+    \CorrectChoice $0.75 V$
+    
+\end{oneparchoices}
+\question The current $I_x$ and $I_y$ are (refer Figure~\ref{fig:3}).
+\begin{figure}[h!]
+\centering
+\begin{circuitikz}[american]
+\draw
+(0,0) to [isource, l=$1A$] (4,0)
+      to [R, l= $5 \Omega$, i=$I_x$] (8,0)
+      to [short] (8,2)
+      to [short] (4,2)
+      to [isource, l=$5A$] (4,0)
+      to [R, l = $1 \Omega$, i=$I_y$] (4, -3)
+      to [short] (0, -3)
+      to [short] (0,0);
+\end{circuitikz}
+\caption{Q.No.3}
+\label{fig:3}
+\end{figure}
+\begin{oneparchoices}
+    \choice $-1A, 5A$
+    \choice $ 5A, 1A$
+    \choice $1A, 5A$
+    \CorrectChoice $5A, -1A$
+    
+\end{oneparchoices}
+
+\question The current $I_1$ and $I_2$ of the circuit shown in Figure~\ref{fig:4} are giving by: 
+\begin{figure}[h!]
+\centering
+\begin{circuitikz}[american]
+\draw
+(0,0) to [isource, l=$10A$] (0,4)
+      to [short]  (8,4)
+      to [R, l=$2 \Omega$, i=$I_2$] (8,0)
+      to [short] (0,0) ;
+\draw
+(4,4) to [R, l=$3 \Omega$, i=$I_1$] (4,0);
+\end{circuitikz}
+\caption{Q.No.4}
+\label{fig:4}
+\end{figure}
+\begin{oneparchoices}
+    \CorrectChoice $4A, 4A$
+    \choice $6A, 6A$
+    \choice $4A, 6A$
+    \choice $6A, 4A$
+\end{oneparchoices}
+
+\question Referring to the circuit of the Figure~\ref{fig:5}, a $35V$ source is connected to a series circuit of $600 \Omega$ and $R$. If a voltmeter of internal resistance $1.2 \SI{}{k \Omega}$ is connected across $600 \Omega$, it reads $5V$. The value of $R$ is
+\begin{figure}[h!]
+\centering
+\begin{circuitikz}[american]
+\draw
+(0,4) to [battery2, l=$35V$] (0,0)
+      to [short] (4,0)
+      to [R, l=$R$] (4,2)
+      to [R, l=$600\Omega$] (4,4)
+      to [short] (0,4);
+\draw
+(6,4) to [voltmeter] (6, 2)
+      to [short] (4,2);
+\draw      
+(4,4) to [short] (6,4);            
+\end{circuitikz}
+\caption{Q.No.5}
+\label{fig:5}
+\end{figure}
+\begin{oneparchoices}
+    \CorrectChoice $1.2 \SI{}{k\Omega}$
+    \choice $2.4 \SI{}{k\Omega}$
+    \choice $1.4 \SI{}{k\Omega}$
+    \choice $3.4 \SI{}{k\Omega}$
+\end{oneparchoices}
+
+\question  The equivalent resistance of the circuit given in Figure~\ref{fig:6} is given by
+\begin{figure}[h!]
+\centering
+\begin{circuitikz}[american]
+\draw
+(-1,0) to [short, o-] (0,0);
+\draw
+(0,0) to [R, l=$1\textrm{k}\Omega$] (2,0)
+      to [R, l=$1\textrm{k}\Omega$] (6,0)
+      to [R, l=$3\textrm{k}\Omega$] (10,0)
+      to [R, l=$5\textrm{k}\Omega$] (14,0)
+      to [short] (15,0)
+      to [short] (15,-4)
+      to [short, -o] (-1,-4);
+\draw
+(3,-1) to [R, l_=$1\textrm{k}\Omega$] (5, -1);
+\draw
+(3, -1) to [short] (3,0);
+\draw
+(5, -1) to [short] (5,0);
+\draw
+(7,-1) to [R, l_=$3\textrm{k}\Omega$] (9, -1);
+\draw
+(7, -1) to [short] (7,0);
+\draw
+(9, -1) to [short] (9,0);
+\draw
+(11,-1) to [R, l_=$5\textrm{k}\Omega$] (13, -1);
+\draw
+(11, -1) to [short] (11,0);
+\draw
+(13, -1) to [short] (13,0);
+
+\end{circuitikz}
+\caption{Q.No.6}
+\label{fig:6}
+\end{figure}
+\begin{oneparchoices}
+    \choice $\SI{4}{k\Omega}$
+    \CorrectChoice $\SI{10}{k\Omega}$
+    \choice $\SI{5.5}{k\Omega}$
+    \choice $\SI{5}{k\Omega}$
+\end{oneparchoices}
+
+
+
+
+\vspace{0.10in}
+
+\end{questions}
+\end{document}
+ 
