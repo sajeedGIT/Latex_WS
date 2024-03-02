@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.9)  20 FEB 2024 16:02
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2024.2.11)  20 FEB 2024 16:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -16,14 +16,14 @@ Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
 (C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
 File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count187
-\c@section=\count188
-\c@subsection=\count189
-\c@subsubsection=\count190
-\c@paragraph=\count191
-\c@subparagraph=\count192
-\c@figure=\count193
-\c@table=\count194
+\c@part=\count183
+\c@section=\count184
+\c@subsection=\count185
+\c@subsubsection=\count186
+\c@paragraph=\count187
+\c@subparagraph=\count188
+\c@figure=\count189
+\c@table=\count190
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
@@ -40,40 +40,40 @@ File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 \covfp@exhd=\skip59
 \covrun@exft=\skip60
 \covfp@exft=\skip61
-\c@num@coverpages=\count195
-\c@latest@ques=\count196
-\c@ques@end=\count197
-\c@last@object=\count198
-\c@incmp@ques=\count199
-\c@next@ques=\count266
-\c@next@page=\count267
-\c@tmp@hlfcntr=\count268
-\c@ifpos@cntr=\count269
-\c@question=\count270
-\c@partno=\count271
-\c@subpart=\count272
-\c@subsubpart=\count273
-\c@choice=\count274
-\c@numpoints=\count275
-\c@numbonuspoints=\count276
-\c@pointsof@thisquestion=\count277
-\c@bonuspointsof@thisquestion=\count278
-\c@numquestions=\count279
-\c@numparts=\count280
-\c@numsubparts=\count281
-\c@numsubsubparts=\count282
-\c@Curr@Page=\count283
-\c@@pagepoints=\count284
-\c@@pagebonuspoints=\count285
-\c@pageof@pagepoints=\count286
-\c@pageof@pagebonuspoints=\count287
-\c@latest@points=\count288
-\c@latest@bonuspoints=\count289
+\c@num@coverpages=\count191
+\c@latest@ques=\count192
+\c@ques@end=\count193
+\c@last@object=\count194
+\c@incmp@ques=\count195
+\c@next@ques=\count196
+\c@next@page=\count197
+\c@tmp@hlfcntr=\count198
+\c@ifpos@cntr=\count199
+\c@question=\count266
+\c@partno=\count267
+\c@subpart=\count268
+\c@subsubpart=\count269
+\c@choice=\count270
+\c@numpoints=\count271
+\c@numbonuspoints=\count272
+\c@pointsof@thisquestion=\count273
+\c@bonuspointsof@thisquestion=\count274
+\c@numquestions=\count275
+\c@numparts=\count276
+\c@numsubparts=\count277
+\c@numsubsubparts=\count278
+\c@Curr@Page=\count279
+\c@@pagepoints=\count280
+\c@@pagebonuspoints=\count281
+\c@pageof@pagepoints=\count282
+\c@pageof@pagebonuspoints=\count283
+\c@latest@points=\count284
+\c@latest@bonuspoints=\count285
 \pageinfo@commands=\toks17
 \temp@toks=\toks18
 \pagepoint@commands=\toks19
 \point@toks=\toks20
-\c@ques@object=\count290
+\c@ques@object=\count286
 \marginpointssep=\skip62
 \rightpointsmargin=\skip63
 \choice@toks=\toks21
@@ -87,21 +87,21 @@ File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 \gridsize=\skip71
 \gridlinewidth=\skip72
 \minboxheight=\skip73
-\c@@iterator=\count291
+\c@@iterator=\count287
 \@cellwidth=\skip74
-\c@tbl@points=\count292
-\c@tbl@bonuspoints=\count293
-\c@pq@index=\count294
-\c@pq@index@pts=\count295
-\c@pq@index@bpts=\count296
-\c@num@cols=\count297
-\c@num@rows=\count298
-\c@current@row=\count299
-\c@cols@done=\count300
-\c@exam@saved@eqnum=\count301
+\c@tbl@points=\count288
+\c@tbl@bonuspoints=\count289
+\c@pq@index=\count290
+\c@pq@index@pts=\count291
+\c@pq@index@bpts=\count292
+\c@num@cols=\count293
+\c@num@rows=\count294
+\c@current@row=\count295
+\c@cols@done=\count296
+\c@exam@saved@eqnum=\count297
 \exam@box=\box51
 \saved@totalleftmargin=\dimen141
-\@sollistdepth=\count302
+\@sollistdepth=\count298
 \exam@FrameRule=\dimen142
 \exam@FrameSep=\dimen143
 )
@@ -118,9 +118,9 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 (C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
-\Gm@cnth=\count303
-\Gm@cntv=\count304
-\c@Gm@tempcnt=\count305
+\Gm@cnth=\count299
+\Gm@cntv=\count300
+\c@Gm@tempcnt=\count301
 \Gm@bindingoffset=\dimen144
 \Gm@wd@mp=\dimen145
 \Gm@odd@mp=\dimen146
@@ -136,10 +136,12 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks24
 \inpenc@posthook=\toks25
-)
-(C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
-Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
 
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
 (C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
@@ -147,17 +149,17 @@ Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 fg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 107.
+Package graphics Info: Driver file: xetex.def on input line 107.
 
-(C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+(C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\xetex.def
+File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
 )) (C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
 Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
 
 (C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: pdftex.def on input line 149.
+Package color Info: Driver file: xetex.def on input line 149.
 (C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
 ) (C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
@@ -190,14 +192,14 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count306
+\inf@bad=\count302
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count307
-\leftroot@=\count308
+\uproot@=\count303
+\leftroot@=\count304
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count309
-\DOTSCASE@=\count310
+\classnum@=\count305
+\DOTSCASE@=\count306
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -210,20 +212,20 @@ LaTeX Info: Redefining \Bigg on input line 725.
 \big@size=\dimen154
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count311
+\macc@depth=\count307
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count312
+\c@MaxMatrixCols=\count308
 \dotsspace@=\muskip16
-\c@parentequation=\count313
-\dspbrk@lvl=\count314
+\c@parentequation=\count309
+\dspbrk@lvl=\count310
 \tag@help=\toks28
-\row@=\count315
-\column@=\count316
-\maxfields@=\count317
+\row@=\count311
+\column@=\count312
+\maxfields@=\count313
 \andhelp@=\toks29
 \eqnshift@=\dimen155
 \alignsep@=\dimen156
@@ -244,8 +246,8 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@outerparindent=\dimen161
 \enit@toks=\toks32
 \enit@inbox=\box54
-\enit@count@id=\count318
-\enitdp@description=\count319
+\enit@count@id=\count314
+\enitdp@description=\count315
 )
 (C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
@@ -253,11 +255,10 @@ Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
 (C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: pdftex.def on input line 274.
+Package xcolor Info: Driver file: xetex.def on input line 274.
 LaTeX Info: Redefining \color on input line 758.
 (C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
 Package xcolor Info: Model `RGB' extended on input line 1366.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
@@ -292,14 +293,14 @@ Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 )
 (C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
-\c@tracingmulticols=\count320
+\c@tracingmulticols=\count316
 \mult@box=\box55
 \multicol@leftmargin=\dimen164
-\c@unbalance=\count321
-\c@collectmore=\count322
-\doublecol@number=\count323
-\multicoltolerance=\count324
-\multicolpretolerance=\count325
+\c@unbalance=\count317
+\c@collectmore=\count318
+\doublecol@number=\count319
+\multicoltolerance=\count320
+\multicolpretolerance=\count321
 \full@width=\dimen165
 \page@free=\dimen166
 \premulticols=\dimen167
@@ -350,15 +351,15 @@ Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \@tempa=\box96
 \@tempa=\box97
 \@tempa=\box98
-\c@minrows=\count326
-\c@columnbadness=\count327
-\c@finalcolumnbadness=\count328
+\c@minrows=\count322
+\c@columnbadness=\count323
+\c@finalcolumnbadness=\count324
 \last@try=\dimen170
 \multicolovershoot=\dimen171
 \multicolundershoot=\dimen172
 \mult@nat@firstbox=\box99
 \colbreak@box=\box100
-\mc@col@check@num=\count329
+\mc@col@check@num=\count325
 )
 (C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
 sty
@@ -411,34 +412,40 @@ libraryfiltered.code.tex
 \pgf@yd=\dimen184
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count330
-\c@pgf@countb=\count331
-\c@pgf@countc=\count332
-\c@pgf@countd=\count333
+\c@pgf@counta=\count326
+\c@pgf@countb=\count327
+\c@pgf@countc=\count328
+\c@pgf@countd=\count329
 \t@pgf@toka=\toks37
 \t@pgf@tokb=\toks38
 \t@pgf@tokc=\toks39
-\pgf@sys@id@count=\count334
+\pgf@sys@id@count=\count330
 
 (C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
 fg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
-Driver file for pgf: pgfsys-pdftex.def
+Driver file for pgf: pgfsys-xetex.def
 
 (C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-s-pdftex.def
-File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+s-xetex.def
+File: pgfsys-xetex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-dvipdfmx.def
+File: pgfsys-dvipdfmx.def 2023-01-15 v3.1.10 (3.1.10)
 
 (C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
 s-common-pdf.def
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)
+\pgfsys@objnum=\count331
 )))
 (C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
 ssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count335
-\pgfsyssoftpath@bigbuffer@items=\count336
+\pgfsyssoftpath@smallbuffer@items=\count332
+\pgfsyssoftpath@bigbuffer@items=\count333
 )
 (C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
 sprotocol.code.tex
@@ -455,7 +462,7 @@ code.tex)
 (C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
 r.code.tex
 \pgfmath@dimen=\dimen185
-\pgfmath@count=\count337
+\pgfmath@count=\count334
 \pgfmath@box=\box102
 \pgfmath@toks=\toks40
 \pgfmath@stack@operand=\toks41
@@ -483,7 +490,7 @@ ions.integerarithmetics.code.tex)
 code.tex)
 (C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
 .code.tex
-\c@pgfmathroundto@lastzeros=\count338
+\c@pgfmathroundto@lastzeros=\count335
 ))
 (C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
 tex)
@@ -523,7 +530,7 @@ File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box103
 \pgf@hbox=\box104
 \pgf@layerbox@main=\box105
-\pgf@picture@serial@count=\count339
+\pgf@picture@serial@count=\count336
 )
 (C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 egraphicstate.code.tex
@@ -558,8 +565,8 @@ File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 eshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@max=\dimen265
-\pgf@sys@shading@range@num=\count340
-\pgf@shadingcount=\count341
+\pgf@sys@shading@range@num=\count337
+\pgf@shadingcount=\count338
 )
 (C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 eimage.code.tex
@@ -629,7 +636,7 @@ Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 (C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
 aryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count342
+\pgf@plot@mark@count=\count339
 \pgfplotmarksize=\dimen270
 )
 \tikz@lastx=\dimen271
@@ -644,19 +651,19 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@figbox@bg=\box109
 \tikz@tempbox=\box110
 \tikz@tempbox@bg=\box111
-\tikztreelevel=\count343
-\tikznumberofchildren=\count344
-\tikznumberofcurrentchild=\count345
-\tikz@fig@count=\count346
+\tikztreelevel=\count340
+\tikznumberofchildren=\count341
+\tikznumberofcurrentchild=\count342
+\tikz@fig@count=\count343
 
 (C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
 matrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count347
-\pgfmatrixcurrentcolumn=\count348
-\pgf@matrix@numberofcolumns=\count349
+\pgfmatrixcurrentrow=\count344
+\pgfmatrixcurrentcolumn=\count345
+\pgf@matrix@numberofcolumns=\count346
 )
-\tikz@expandcount=\count350
+\tikz@expandcount=\count347
 
 (C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibrarytopaths.code.tex
@@ -709,9 +716,9 @@ z/libraries\tikzlibraryfpu.code.tex
 aryfpu.code.tex))
 (C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcirc.de
 fines.tex
-\pgf@circ@count@a=\count351
-\pgf@circ@count@b=\count352
-\pgf@circ@count@c=\count353
+\pgf@circ@count@a=\count348
+\pgf@circ@count@b=\count349
+\pgf@circ@count@c=\count350
 \pgf@circ@res@up=\dimen290
 \pgf@circ@res@down=\dimen291
 \pgf@circ@res@zero=\dimen292
@@ -738,7 +745,7 @@ opoles.tex)
 oles.tex)
 (C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcirctri
 poles.tex
-\pgf@circ@res@count=\count354
+\pgf@circ@res@count=\count351
 )
 (C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcircqua
 dpoles.tex)
@@ -756,20 +763,20 @@ rent.tex)
 w.tex))
 (C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
 Package: siunitx 2024-01-25 v3.3.10 A comprehensive (SI) units package
-\l__siunitx_number_uncert_offset_int=\count355
-\l__siunitx_number_exponent_fixed_int=\count356
-\l__siunitx_number_min_decimal_int=\count357
-\l__siunitx_number_min_integer_int=\count358
-\l__siunitx_number_round_precision_int=\count359
-\l__siunitx_number_lower_threshold_int=\count360
-\l__siunitx_number_upper_threshold_int=\count361
-\l__siunitx_number_group_first_int=\count362
-\l__siunitx_number_group_size_int=\count363
-\l__siunitx_number_group_minimum_int=\count364
+\l__siunitx_number_uncert_offset_int=\count352
+\l__siunitx_number_exponent_fixed_int=\count353
+\l__siunitx_number_min_decimal_int=\count354
+\l__siunitx_number_min_integer_int=\count355
+\l__siunitx_number_round_precision_int=\count356
+\l__siunitx_number_lower_threshold_int=\count357
+\l__siunitx_number_upper_threshold_int=\count358
+\l__siunitx_number_group_first_int=\count359
+\l__siunitx_number_group_size_int=\count360
+\l__siunitx_number_group_minimum_int=\count361
 \l__siunitx_angle_tmp_dim=\dimen302
 \l__siunitx_angle_marker_box=\box113
 \l__siunitx_angle_unit_box=\box114
-\l__siunitx_compound_count_int=\count365
+\l__siunitx_compound_count_int=\count362
 
 (C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/latex/translations\translatio
 ns.sty
@@ -778,7 +785,7 @@ Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
 
 (C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count366
+\etb@tempcnta=\count363
 )
 (C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
 .sty
@@ -794,7 +801,7 @@ Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
+Package pdftexcmds Info: \pdfdraftmode not found.
 ))
 \l__siunitx_table_tmp_box=\box115
 \l__siunitx_table_tmp_dim=\dimen303
@@ -806,9 +813,9 @@ Package pdftexcmds Info: \pdfdraftmode found.
 \l__siunitx_table_after_box=\box120
 \l__siunitx_table_before_dim=\dimen305
 \l__siunitx_table_carry_dim=\dimen306
-\l__siunitx_unit_tmp_int=\count367
-\l__siunitx_unit_position_int=\count368
-\l__siunitx_unit_total_int=\count369
+\l__siunitx_unit_tmp_int=\count364
+\l__siunitx_unit_position_int=\count365
+\l__siunitx_unit_total_int=\count366
  (C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 \col@sep=\dimen307
@@ -825,22 +832,22 @@ Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
 \LTright=\skip98
 \LTpre=\skip99
 \LTpost=\skip100
-\LTchunksize=\count370
+\LTchunksize=\count367
 \LTcapwidth=\dimen309
 \LT@head=\box123
 \LT@firsthead=\box124
 \LT@foot=\box125
 \LT@lastfoot=\box126
 \LT@gbox=\box127
-\LT@cols=\count371
-\LT@rows=\count372
-\c@LT@tables=\count373
-\c@LT@chunks=\count374
+\LT@cols=\count368
+\LT@rows=\count369
+\c@LT@tables=\count370
+\c@LT@chunks=\count371
 \LT@p@ftn=\toks46
 )
 (C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count375
+\c@float@type=\count372
 \float@exts=\toks47
 \float@box=\box128
 \@float@everytoks=\toks48
@@ -858,11 +865,14 @@ Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 Package translations Info: No language package found. I am going to use `englis
 h' as default language. on input line 23.
 
-(C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
-tex.def
-File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count376
+(C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-xet
+ex.def
+File: l3backend-xetex.def 2024-01-04 L3 backend support: XeTeX
+\g__graphics_track_int=\count373
 \l__pdf_internal_box=\box130
+\g__pdf_backend_object_int=\count374
+\g__pdf_backend_annotation_int=\count375
+\g__pdf_backend_link_int=\count376
 ) (network_theory.aux)
 \openout1 = `network_theory.aux'.
 
@@ -875,6 +885,14 @@ LaTeX Font Info:    ... okay on input line 23.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
+3.
+
+(C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
+File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
@@ -882,9 +900,9 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
 
 *geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
+*geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
+* driver: xetex
 * paper: legalpaper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -916,31 +934,6 @@ LaTeX Font Info:    ... okay on input line 23.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-(C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
-ii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count377
-\scratchdimen=\dimen310
-\scratchbox=\box131
-\nofMPsegments=\count378
-\nofMParguments=\count379
-\everyMPshowfont=\toks49
-\MPscratchCnt=\count380
-\MPscratchDim=\dimen311
-\MPnumerator=\count381
-\makeMPintoPDFobject=\count382
-\everyMPtoPDFconversion=\toks50
-)
-(C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
-ase.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-
-(C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
-fg
-File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-))
 (C:\Users\Radha\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tran
 slations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `tra
@@ -948,11 +941,8 @@ nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
 or `english'. on input line 23.
-<dietlogo.png, id=4, 469.755pt x 98.61844pt>
-File: dietlogo.png Graphic file (type png)
-<use dietlogo.png>
-Package pdftex.def Info: dietlogo.png  used on input line 26.
-(pdftex.def)             Requested size: 469.75502pt x 98.61818pt.
+File: dietlogo.png Graphic file (type bmp)
+<dietlogo.png>
 
 Overfull \hbox (12.00002pt too wide) in alignment at lines 25--30
  [] [] [] [] 
@@ -971,8 +961,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 [1
 
-{C:/Users/Radha/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./dietlogo.p
-ng>] [2] [3]
+] [2] [3]
 This exam contains 7 questions with 0 parts, 0 subparts, and 0 subsubparts.
 This exam has a total of 0 points.
 This exam has a total of 0 bonus points.
@@ -985,26 +974,18 @@ Class exam Warning: Point totals have changed. Rerun to get point totals right.
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 39133 strings out of 474542
- 1013404 string characters out of 5744447
- 1985978 words of memory out of 5000000
- 60991 multiletter control sequences out of 15000+600000
- 563021 words of font info for 55 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
+ 38804 strings out of 409673
+ 998707 string characters out of 5774704
+ 1968630 words of memory out of 5000000
+ 60500 multiletter control sequences out of 15000+600000
+ 562746 words of font info for 58 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
  88i,12n,92p,553b,1169s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Radha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmbx12.pfb><C:/Users/Radha/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmmi12.pfb><C:/Users/Radha/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmmi8.pfb><C:/Users/Radha/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Radha/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Radha/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on C:\Users\Radha\OneDrive\Documents\GitHub\Latex_WS\build\netwo
-rk_theory.pdf (3 pages, 147615 bytes).
-PDF statistics:
- 46 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
+Output written on network_theory.pdf (3 pages).

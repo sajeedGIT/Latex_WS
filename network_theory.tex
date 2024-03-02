@@ -15,77 +15,21 @@
 \usepackage{tikz}
 \usepackage{circuitikz}
 \usepackage{siunitx}
+\usepackage{longtable}
+\usepackage{float}
+\usepackage{parskip}
 \CorrectChoiceEmphasis{\itseries\color{red}}
 
 \begin{document}
-\begin{coverpages}
-
-%---uncomment to add a custom header (replace {header-cufm.png})---- %
-%\begin{figure}[t]
-%\includegraphics[width=1\textwidth,height=1.2\textheight,keepaspectratio]{%header-cufm.png}
-%\end{figure}
-
-\begin{center}
-Spring 2018 \\
-\textbf{Precalculus' Final Examination } \\
-nth Semester \\
-Section 000
-\end{center}
-\extraheadheight{-0.8in}
-
-\vspace{0.25in}
+\def\arraystretch{2}
+\begin{longtable}{lp{0.65\textwidth}p{0.15\textwidth}r}
+\multicolumn{4}{c}{\includegraphics[width= \textwidth]{dietlogo}} \\ 
+\hline 
+\multicolumn{4}{c}{Tech Nexus Competition 2023-24} \\
+\multicolumn{4}{c}{Organized by IETE Student Forum, DIET, Satara}
+\end{longtable}
 \parbox{6in}{
-\textbf{Objective:} Assess understanding of function behavior and calculus readiness. This exam also aims to provide a comprehensive assessment on concepts and definitions that are necessary to be successful in further Mathematics courses.)}
-\vspace{0.15in}
-
-\parbox{6in}{{\textbf{General Instructions:} Read carefully each exercise. Fill in your \textit{scantron} with a pencil and circle the correct answer on paper as well. Scratch paper is not allowed under any circumstances. All your work must be done in these pages.}
-\vspace{0.15in}}
-
- \begin{center}
-\fbox{\fbox{\parbox{6in}{
-\begin{itemize}
-    \item You have up to 120 minutes.
-    
-    \item Every item on the test awards 2 points for each correct answer, for a maximum possible score of 100 points.
-    
-    \item Non-graphing calculators are allowed. TI-84 or similar, including smart devices, are prohibited. 
-
-    
-    \item One half-page formula sheet printed in black ink and showing the instructor's authorization may be used. Any other form of aid is not allowed. 
-    
-    \item Mere suspicion of cheating, sharing calculators or using any unfair means of aid is enough to get your test withdrawn.
-        
-    \item When you are done, turn in the examination, your \textit{scantron} and your formula sheet. Failure to do so will result in an automatic failing grade.
-
-
-    
-\end{itemize} }}}
-\vspace{0.2in}
-\end{center}
-\vspace{0.15in}
-\runningheadrule \extraheadheight{0.14in}
-
-\lhead{\ifcontinuation{Question \ContinuedQuestion\ continues\ldots}{}}
-\runningheader{Precalculus}{Final Examination}{Spring 2018}
-\runningfooter{4th Semester}
-              {\thepage\ of \numpages}
-              {Version A}
-\vspace{0.15in}
-
-\vspace{0.1in}
-
-%-comment out the next line to display point value for each question -%
-\nopointsinmargin
-\setlength\linefillthickness{0.1pt}
-\setlength\answerlinelength{0.1in}
-\end{coverpages}
-
-\parbox{6in}{\textsc{{SIDE A}}
-
-\vspace{0.15in}
-
-\parbox{5in}{
-{\textsc{\textbf{Part I.} Network Theory Questions.}}}}
+Date: 07/03/2024 \hfill Time: 10 Min \hfill Marks:10}
 
 \vspace{0.15in}
 \hrule 
@@ -93,7 +37,7 @@ Section 000
 \begin{questions}
 
 \question The current $I_y$ flowing through $660 \Omega$ resistance  is (Refer Figure~\ref{fig:1}):
-\begin{figure}[h!]
+\begin{figure}[H]
 \centering
 \begin{circuitikz}[american voltages]
 \draw
@@ -123,7 +67,7 @@ Section 000
 \end{oneparchoices}
 
 \question The voltage across $660 \Omega$ resistance is (refer Figure~\ref{fig:2}):
-\begin{figure}[h!]
+\begin{figure}[H]
 \centering
 \begin{circuitikz}[american ]
 \draw
@@ -149,7 +93,7 @@ Section 000
     
 \end{oneparchoices}
 \question The current $I_x$ and $I_y$ are (refer Figure~\ref{fig:3}).
-\begin{figure}[h!]
+\begin{figure}[H]
 \centering
 \begin{circuitikz}[american]
 \draw
@@ -174,7 +118,7 @@ Section 000
 \end{oneparchoices}
 
 \question The current $I_1$ and $I_2$ of the circuit shown in Figure~\ref{fig:4} are giving by: 
-\begin{figure}[h!]
+\begin{figure}[H]
 \centering
 \begin{circuitikz}[american]
 \draw
@@ -196,7 +140,7 @@ Section 000
 \end{oneparchoices}
 
 \question Referring to the circuit of the Figure~\ref{fig:5}, a $35V$ source is connected to a series circuit of $600 \Omega$ and $R$. If a voltmeter of internal resistance $1.2 \SI{}{k \Omega}$ is connected across $600 \Omega$, it reads $5V$. The value of $R$ is
-\begin{figure}[h!]
+\begin{figure}[H]
 \centering
 \begin{circuitikz}[american]
 \draw
@@ -222,9 +166,9 @@ Section 000
 \end{oneparchoices}
 
 \question  The equivalent resistance of the circuit given in Figure~\ref{fig:6} is given by
-\begin{figure}[h!]
+\begin{figure}[H]
 \centering
-\begin{circuitikz}[american]
+\begin{circuitikz}[american, scale=0.8]
 \draw
 (-1,0) to [short, o-] (0,0);
 \draw
@@ -264,9 +208,33 @@ Section 000
     \choice $\SI{5.5}{k\Omega}$
     \choice $\SI{5}{k\Omega}$
 \end{oneparchoices}
-
-
-
+\question Find current $I$, (refer Figure~ref{fig:7}).
+\begin{figure}[H]
+\centering
+\begin{circuitikz}[american]
+\draw
+(0,0) to [isource, l=$1A$] (4,0)
+      to [R, l=$2 \Omega$] (2,-2)
+      to [R, l=$5 \Omega$] (0,0);
+\draw
+(0,0) to [short] (0,1.5)
+      to [R, l=$10 \Omega$] (4,1.5)
+      to [short] (4,0);
+\draw
+(2,-2) to [short] (0,-2)
+       to [isource, l=$2A$] (0,0);
+\draw
+(2,-2) to [short] (4,-2)
+       to [isource, l_=$4A$] (4,0);  
+\label{fig:7}            
+\end{circuitikz}
+\end{figure}
+\begin{oneparchoices}
+    \choice $\dfrac{17}{12}$
+    \CorrectChoice $\dfrac{11}{17}$
+    \choice $\dfrac{12}{17}$
+    \choice $\dfrac{17}{11}$
+\end{oneparchoices}
 
 \vspace{0.10in}
 
