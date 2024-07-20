@@ -40,7 +40,7 @@
 \multicolumn{4}{c}{\includegraphics[width= \textwidth]{dietlogo}} \\ 
 \multicolumn{4}{c}{Written Test for Degree Engineering Interview} \\
 Date:20/07/2024 & \multicolumn{2}{c}{ ~~~Branch: E \& TC Engineering ~~~~ Time:1 hr} & Marks:40 \\
-\multicolumn{4}{l}{ Note: All questions are compulsory Q.1 to Q.20 carry 1 mark each, b)  } \\ \hline
+\multicolumn{4}{l}{ Note: All questions are compulsory  } \\ \hline
 \end{longtable}
 %\vspace{0.1in}
 \begin{questions}
@@ -240,10 +240,35 @@ Date:20/07/2024 & \multicolumn{2}{c}{ ~~~Branch: E \& TC Engineering ~~~~ Time:1
 \question In the circuit shown in Figure~\ref{vc} below, $V_1$ and $V_2$ are bias voltages. Based on input and output impedances, the circuit behaves as a
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.2\textwidth]{vc}
+ \begin{circuitikz}[american,]
+\ctikzset{tripoles/mos style=arrows}
+\ctikzset{transistors/arrow pos=end}
+ \ctikzset{tripoles/pmos style/nocircle}
+ \draw (0,0)  node[pmos](Q1){Q1}
+ 
+(Q1.source) to [short] (0,1)
+--(0,1)  node[vcc](VDD){$V_{DD}$};
+
+\draw 
+++(0,-2)  node[nmos](Q2){Q2}   ;
+\draw
+(Q1.drain) to [short] (Q2.drain);
+\draw
+(Q2.source) to [short] (0,-3)
+            to [R, l=$R_l$] (0,-5)
+            to [sV, l=$V_{IN}$]  (0,-7)  
+ (0,-7) node[ground](GND){}; 
+ \draw
+ ++(Q2.drain)  to [short, -o, l=$V_{OUT}$] (1,-1.23);               
+ \draw
+(Q1.gate) to [short, -o, l=$V_1$](-1,0);
+\draw
+(Q2.gate) to [short, -o, l=$V_2$](-1,-2);
+\end{circuitikz}
 \caption{Q.18}
 \label{vc}
 \end{figure}
+~\\[0.3cm]
 \begin{oneparchoices}
 \choice voltage controlled voltage source.
 \choice voltage controlled current source.
